@@ -1,12 +1,32 @@
 aid: 61draw
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/61draw.png
 name: 61draw
-description: 61draw is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 61draw (广东省六一线上非学科培训学校有限公司, Guangdong Liuyi Online Non-Academic
+  Training School Co., Ltd.) is a China-based online children's art and non-academic
+  education platform delivering live-broadcast art lessons to children roughly aged
+  five to nine. It is a portfolio company of Qiming Venture Partners and Matrix Partners
+  China, which co-led its Series B round, and was surfaced to the API Evangelist network
+  as a venture-portfolio lead. The company runs a consumer web and mobile presence
+  at 61draw.com; no public developer, API, or documentation surface has been found
+  during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/61draw/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-legal-name: 广东省六一线上非学科培训学校有限公司
 x-backed-by:
 - qiming
+- matrix-partners-china
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
@@ -14,6 +34,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Education
+- EdTech
+- Online Learning
+- Art
+- Children
+- Consumer
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://61draw.com
+- type: DomainSecurity
+  url: security/61draw-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
